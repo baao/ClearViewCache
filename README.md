@@ -6,6 +6,7 @@ Clears the view cache, for laravel lumen
 
 # Register the Service Provider 
 in bootstrap/app.php
+
     $app->register('Baao\ClearViewCache\ClearViewCacheServiceProvider');
 
 # Clear all cached views:
