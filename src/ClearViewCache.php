@@ -39,11 +39,12 @@ class ClearViewCache extends Command
      */
     public function handle()
     {
-        $cachedViews = storage_path('/framework/views/');
+        $cachedViews = storage_path('framework/views/');
         $files = glob($cachedViews.'*');
         foreach($files as $file) {
             if(is_file($file)) {
                 @unlink($file);
+                $this->info("File $file deleted!");
             }
         }
     }
