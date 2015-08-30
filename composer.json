@@ -9,9 +9,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Baao\\ClearViewCache\\": "src/"
-        }
+        "psr-0": { "Baao\\ClearViewCache\\": "src/"}
     },
     "require": {}
 }
