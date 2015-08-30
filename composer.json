@@ -8,10 +8,11 @@
             "email": "info@meine-buybox.de"
         }
     ],
-    "require": {},
     "autoload": {
         "psr-4": {
             "Baao\\ClearViewCache\\": "src"
         }
-    }
+    },
+    "require": {}
+
 }
