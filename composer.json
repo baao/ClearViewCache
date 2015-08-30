@@ -1,0 +1,12 @@
+{
+    "name": "baao/clear-view-cache",
+    "description": "Simple View Cache Cleaner for laravel lumen",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "michael",
+            "email": "info@meine-buybox.de"
+        }
+    ],
+    "require": {}
+}
