@@ -1,5 +1,5 @@
 # ClearViewCache
-Clears the view cache, for laravel lumen
+Clears the cached view files, for laravel lumen
 
 # Installation
     composer require baao/clear-view-cache
