@@ -11,3 +11,8 @@ in bootstrap/app.php
 
 # Clear all cached views:
     php artisan view:clear
+
+# License
+
+MIT 
+ 
