@@ -19,7 +19,8 @@ class ClearViewCache extends Command
      *
      * @var string
      */
-    protected $description = 'Clear all compiled view files.';
+
+    protected $description = 'Clear all compiled view files.'; //
 
     /**
      * Create a new command instance.
