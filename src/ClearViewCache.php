@@ -14,7 +14,6 @@ class ClearViewCache extends Command
      */
 
     protected $name = 'view:clear';
-
     /**
      * The console command description.
      *
